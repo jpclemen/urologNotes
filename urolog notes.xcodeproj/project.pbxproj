@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B16E2B79223EA1F8009FEB82 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E2B78223EA1F8009FEB82 /* MainTableViewController.swift */; };
+		B16E2B7B223EA262009FEB82 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16E2B7A223EA262009FEB82 /* AddViewController.swift */; };
+		B16E2B9F223EAABB009FEB82 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B16E2B9D223EAABB009FEB82 /* Model.xcdatamodeld */; };
 		B1EB88D9223D6D5F007A8E56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EB88D8223D6D5F007A8E56 /* AppDelegate.swift */; };
 		B1EB88DB223D6D5F007A8E56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EB88DA223D6D5F007A8E56 /* ViewController.swift */; };
 		B1EB88DE223D6D5F007A8E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EB88DC223D6D5F007A8E56 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B16E2B78223EA1F8009FEB82 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		B16E2B7A223EA262009FEB82 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		B16E2B9E223EAABB009FEB82 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		B1EB88D5223D6D5F007A8E56 /* urolog notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "urolog notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1EB88D8223D6D5F007A8E56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1EB88DA223D6D5F007A8E56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 				B1EB88DF223D6D62007A8E56 /* Assets.xcassets */,
 				B1EB88E1223D6D62007A8E56 /* LaunchScreen.storyboard */,
 				B1EB88E4223D6D62007A8E56 /* Info.plist */,
+				B16E2B78223EA1F8009FEB82 /* MainTableViewController.swift */,
+				B16E2B7A223EA262009FEB82 /* AddViewController.swift */,
+				B16E2B9D223EAABB009FEB82 /* Model.xcdatamodeld */,
 			);
 			path = "urolog notes";
 			sourceTree = "<group>";
@@ -136,6 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1EB88DB223D6D5F007A8E56 /* ViewController.swift in Sources */,
+				B16E2B79223EA1F8009FEB82 /* MainTableViewController.swift in Sources */,
+				B16E2B9F223EAABB009FEB82 /* Model.xcdatamodeld in Sources */,
+				B16E2B7B223EA262009FEB82 /* AddViewController.swift in Sources */,
 				B1EB88D9223D6D5F007A8E56 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +346,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B16E2B9D223EAABB009FEB82 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B16E2B9E223EAABB009FEB82 /* Model.xcdatamodel */,
+			);
+			currentVersion = B16E2B9E223EAABB009FEB82 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B1EB88CD223D6D5F007A8E56 /* Project object */;
 }
